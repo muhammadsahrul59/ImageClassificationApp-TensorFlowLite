@@ -3,6 +3,7 @@
 ## Project Description
 Welcome to the Image Classification App using TensorFlowLite, where cutting-edge techniques and meticulous design come together to achieve exceptional model accuracy. This project leverages a dataset comprising more than 10,000 images, ensuring a diverse and extensive learning experience. The dataset has never been employed in any previous machine learning class submissions, guaranteeing novelty.
 
+You can view the dataset in Kaggle :  [Animal -5 Mammal](https://www.kaggle.com/datasets/shiv28/animal-5-mammal?select=Animal)
 ## Key Features
 - **Extensive Dataset**: The project utilizes a dataset exceeding 10,000 images, providing a rich source for training and testing the model.
 - **Dataset Division**: The dataset is divided into an 80% training set and a 20% test set, ensuring a robust evaluation of the model's performance.
