@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@drawable/rounded_corners"
+        android:contentDescription="@string/image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_animal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Picture"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#7DD9C2"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/classified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Classified as:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textColor="#DC72A9"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/confidencesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Confidences:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/confidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
