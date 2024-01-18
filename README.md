@@ -4,15 +4,6 @@
 Welcome to the Image Classification App using TensorFlowLite, where cutting-edge techniques and meticulous design come together to achieve exceptional model accuracy. This project leverages a dataset comprising more than 10,000 images, ensuring a diverse and extensive learning experience. The dataset has never been employed in any previous machine learning class submissions, guaranteeing novelty.
 
 You can view the dataset in Kaggle :  [Animal -5 Mammal](https://www.kaggle.com/datasets/shiv28/animal-5-mammal?select=Animal)
-## Key Features
-- **Extensive Dataset**: The project utilizes a dataset exceeding 10,000 images, providing a rich source for training and testing the model.
-- **Dataset Division**: The dataset is divided into an 80% training set and a 20% test set, ensuring a robust evaluation of the model's performance.
-- **Sequential Model**: The model architecture follows a sequential design, facilitating a streamlined and intuitive structure.
-- **Conv2D Maxpooling Layer**: Utilizing Conv2D and Maxpooling layers, the model captures hierarchical features for effective image classification.
-- **Training Accuracy**: The model achieves training and validation set accuracies surpassing 92%, showcasing its capability to generalize well on unseen data.
-- **Callback Implementation**: Employing callback techniques enhances the training process by allowing dynamic adjustments based on the model's performance.
-- **Plotting Performance**: The project includes code for creating plots that visualize the model's accuracy and loss over the training epochs, aiding in performance analysis.
-- **TF-Lite Model Export**: The model is saved in the TF-Lite format, ensuring compatibility for deployment on various platforms with resource constraints.
 
 ## Overview
 This application is designed to classify mammalian animal objects (cats, dogs, lions, elephants, and horses) simply by photographing them using MobileNetV2 technology.
@@ -29,15 +20,14 @@ This application should be run on a physical Android device.
 
 ![Screenshot 2024-01-14 232611](https://github.com/muhammadsahrul59/ImageClassificationApp-TensorFlowLite/assets/101655285/a32274a9-3b5f-42cc-b2ca-388965d47057)
 
-## Build the demo using Android Studio
 
-### Prerequisites
+## Prerequisites
 
 * The **[Android Studio](https://developer.android.com/studio/index.html)** IDE (Android Studio 2023.1.1 or newer). This sample has been tested on Android Studio Hedgehog
 
 * A physical Android device with developer mode enabled. The process of enabling developer mode may vary by device.
 
-### Building
+## Building
 
 * Open Android Studio. From the Welcome screen, select Open an existing Android Studio project.
 
@@ -47,9 +37,19 @@ This application should be run on a physical Android device.
 
 * With your Android device connected to your computer and developer mode enabled, click on the green Run arrow in Android Studio.
 
-### Models used
+## Models used
 
 Downloading, extraction, and placing the models into the assets folder is managed automatically by the download.gradle file.
+
+## Key Features:
+- **Extensive Dataset**: The project utilizes a dataset exceeding 10,000 images, providing a rich source for training and testing the model.
+- **Dataset Division**: The dataset is divided into an 80% training set and a 20% test set, ensuring a robust evaluation of the model's performance.
+- **Sequential Model**: The model architecture follows a sequential design, facilitating a streamlined and intuitive structure.
+- **Conv2D Maxpooling Layer**: Utilizing Conv2D and Maxpooling layers, the model captures hierarchical features for effective image classification.
+- **Training Accuracy**: The model achieves training and validation set accuracies surpassing 92%, showcasing its capability to generalize well on unseen data.
+- **Callback Implementation**: Employing callback techniques enhances the training process by allowing dynamic adjustments based on the model's performance.
+- **Plotting Performance**: The project includes code for creating plots that visualize the model's accuracy and loss over the training epochs, aiding in performance analysis.
+- **TF-Lite Model Export**: The model is saved in the TF-Lite format, ensuring compatibility for deployment on various platforms with resource constraints.
 
 ## Run the notebook only on Google Colab
 ```
